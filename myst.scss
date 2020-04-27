@@ -1,0 +1,54 @@
+$color_obl1: #FECFBA;
+$color_obl2: #f5DDE8;
+
+body{
+    background-color: lighter;
+    font-family: verdana arial;
+	text-align:center; }
+
+#bigh1{
+	color: Tomato;
+	margin-bottom: -7px;	}
+
+#bigh3{
+	color: Darkred;
+	margin-bottom: 10px;	}
+
+h6{
+	font-style: italic;
+	color: light-blue;	}
+
+th.rotate > div {
+transform: rotate(90deg); }
+
+.container {
+	padding-top: 30px;
+	}
+
+table{
+	margin: 10px	}
+
+td.obl_book {
+	border: 2px solid grey;
+	width: 100px;
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	background: linear-gradient(10deg, $color_obl1, $color_obl2);	}
+
+td.opis	{
+	padding: 10px;
+	color: gray;
+	}
+
+div.author {
+	line-height: 100%;
+	font-size: 80%;
+	margin-bottom: 10px;
+		}
+
+div.down_block {
+	padding-top: 10px;
+	text-align: left;
+	a {
+		color: Tomato;	}	}
