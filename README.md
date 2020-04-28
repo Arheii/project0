@@ -1,3 +1,5 @@
 # Project 0
 
-Web Programming with Python and JavaScript
+LIBRARY
+Simple project, used html, css, scss, bootstrap.
+
