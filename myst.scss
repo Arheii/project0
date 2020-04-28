@@ -1,6 +1,15 @@
 $color_obl1: #FECFBA;
 $color_obl2: #f5DDE8;
 
+%plain_text {
+	font-style: italic;
+	font-family: Bodoni, Times New Roman;
+	line-height: 120%;	}
+
+@media print {
+  div.obl_book {
+	background: white;	}	}
+
 body{
     background-color: lighter;
     font-family: verdana arial;
@@ -26,26 +35,35 @@ transform: rotate(90deg); }
 	}
 
 table{
-	margin: 10px	}
+	margin: 5px	}
 
-td.obl_book {
+tr {
+	vertical-align: top;	}
+
+div.obl_book {
+	vertical-align: top;
+	font-style: bold;
+	line-height: 80%;
 	border: 2px solid grey;
-	width: 100px;
+	width: 110px;
+	height: 190px;
 	padding: 10px;
-	padding-top: 10px;
-	padding-bottom: 40px;
-	background: linear-gradient(10deg, $color_obl1, $color_obl2);	}
+	padding-top: 20px;
+	background: linear-gradient(10deg, $color_obl1, $color_obl2);		}
+
+a.author {
+	font-size: 80%;
+	color:darkred;	}
 
 td.opis	{
+	@extend %plain_text;
 	padding: 10px;
 	color: gray;
+	height: 200px;
 	}
 
-div.author {
-	line-height: 100%;
-	font-size: 80%;
-	margin-bottom: 10px;
-		}
+p.razv_opis {
+	@extend %plain_text;}
 
 div.down_block {
 	padding-top: 10px;
